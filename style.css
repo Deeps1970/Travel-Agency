@@ -71,26 +71,22 @@ header .navbar a:hover::after {
 }
 
 .sidebar {
-    position: fixed;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: 0;
-    z-index: 999;
-    background-color: #0000009b;
-    backdrop-filter: blur(10px);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 20px;
-
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  top: 0;
+  right: 0;
+  background-color: #0000009b;
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 999;
 }
 
 .sidebar.active {
   display: flex;
-  flex-direction: column;
 }
 
 .sidebar li {
