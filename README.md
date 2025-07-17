@@ -8,7 +8,7 @@ Welcome to my **Travel Agency** project – a vibrant and stylish website built 
 
 ## 🌐 Live Demo
 
-- [Click Here to See Live Demo!](https://deeps1970.github.io/Netflix-Clone/)
+- [Click Here to See Live Demo!](https://deeps1970.github.io/Travel-Agency/)
 
 ---
 
