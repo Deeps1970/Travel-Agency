@@ -88,6 +88,11 @@ header .navbar a:hover::after {
 
 }
 
+.sidebar.active {
+  display: flex;
+  flex-direction: column;
+}
+
 .sidebar li {
     width: 100%;
     margin-top: 20px;
@@ -125,6 +130,9 @@ header .navbar a:hover::after {
         footer div{
         font-size: 9px; /*less font size*/
         padding: 5px;/*less breath space*/
+    }
+    .sidebar {
+        display: none !important;
     }
 }
 
